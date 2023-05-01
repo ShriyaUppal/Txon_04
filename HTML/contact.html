@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/CSS/contact.css">
+    <script src="/JS/script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.5.2/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.5.2/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" style="background-color: #d4ff94; height: 90px;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color: white; font-size: xx-large; font-weight: bolder;">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto" >
+            <li class="nav-item active">
+              <a class="nav-link" href="https://www.linkedin.com/feed/" style="color: #7c7c7c; font-size: xx-large;"><ion-icon name="logo-linkedin"></ion-icon> <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/" style="color: #7c7c7c; font-size: xx-large;"><ion-icon name="logo-github"></ion-icon></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://twitter.com/home" style="color: #7c7c7c; font-size: xx-large;"><ion-icon name="logo-twitter"></ion-icon></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mailto:shriyauppal1615@gmail.com" style="color: #7c7c7c; font-size: xx-large;"><ion-icon name="logo-instagram"></ion-icon></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="" style="color: #7c7c7c; font-size: xx-large;"><button id="btn" >Contact Me</button></a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="main">
+      <form action="">
+        <h3>Want to connect with me?</h3>
+        <h4>Reach out to me using the form below</h4>
+        <ion-icon name="person-circle-outline" style="margin-right: 20px;"></ion-icon><input type="text" placeholder="Your name" style="width: 400px; height: 30px; margin-top: 20px;"> <br>
+        <ion-icon name="mail-outline" style="margin-right: 20px;"></ion-icon><input type="email" name="Your Email" id="" placeholder="Your Email" style="width: 400px; height: 30px; margin-top: 20px;"> <br>
+        <textarea name="Type a message" id="" cols="30" rows="10" placeholder="Type a message" style=" margin-top: 20px; margin-left: 40px; width: 400px; height: 400px;"></textarea> <br>
+        <button class="btn" style=" margin-top: 20px; margin-left: 30px; font-weight: bolder; width: 500px; height: 50px; text-decoration: none;"> Send Message</button> <br>
+      </form>
+      </div>
+
+
+
+<script>
+$(document).ready(function() {
+    $('.navbar-toggler').click(function() {
+        $('.navbar-collapse').slideToggle();
+    });
+});
+</script>
+
+</body>
+</html>
